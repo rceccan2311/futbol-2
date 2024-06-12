@@ -15,7 +15,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         maqueen.motorStop(maqueen.Motors.All)
     }
 })
-radio.setGroup(1)
+radio.setGroup(93)
 basic.forever(function () {
     basic.showLeds(`
         # . . . #
